@@ -1,0 +1,128 @@
+/*CSS Hassene section Slogan*/
+section.slogan{
+    background: antiquewhite ;
+    color: #343434;
+}
+.slogan .row{
+    margin-right: 10%;
+    margin-left: 10%;
+   
+}
+/*CSS Hassene section Slogan*/
+
+/*CSS Adrien section Headline*/
+section.headline{
+    background:#343434 ;
+    color: whitesmoke;
+    text-align: center;
+}
+.headline .menu-barre{
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+    height: 50px;
+}
+.headline img{
+  display: block;
+    margin: auto;
+}
+
+
+/*CSS Adrien section Headline*/
+
+/*CSS TuAnh section Destination*/
+
+.barre-destination{
+    background: antiquewhite;
+    height: 50px;
+    display: block;
+}
+.barre-destination .barre{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+button.btn-primary{
+    background: #009933;
+    color: whitesmoke;
+    border: 0;
+}
+.destination > div > img {
+    display: block;
+}
+.destination > .pays  {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+}
+p.description  {
+    font-size: smaller;
+}
+.destination .row{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 15px;
+
+}
+section.destination{
+    background: #343434;
+    color: aliceblue;
+    text-align: center;
+}
+/*CSS TuAnh section Destination*/
+
+/*CSS Richard section Sejour*/
+
+.sejour-headline{
+    background: antiquewhite;
+    padding-top: 15px;
+}
+.sejour .evenement{
+    margin-right: 10%;
+    margin-left: 10%;
+    height: 50px;
+    display: block;
+    text-align: center;
+    font-size: large;
+
+}
+.sejour-image{
+    background: #343434;
+padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sejour .sejour{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: whitesmoke;
+    text-align: center;
+}
+/*CSS Richard section Sejour*/
+
+/*CSS Kader section Sejour*/
+.newsletter1 .row{
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: large;
+    color: #343434;
+}
+.newsletter .newsletter1{
+    background: antiquewhite;
+}
+.newsletter h2{
+    text-align: center;
+    font-size: large;
+    color: whitesmoke;
+}
+.partenaire{
+    background: #343434;
+    text-align: center;
+    color: whitesmoke;
+}
+/*CSS Kader section Sejour*/
+
+@media (max-width: 900px) {
+    .headline .menu-barre {
+        height: 200px;
+    }
+}

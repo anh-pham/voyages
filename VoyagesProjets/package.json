@@ -1,0 +1,18 @@
+{
+  "name": "voyages",
+  "version": "0.0.1",
+  "main": "voyages.html",
+  "window": {
+    "frame": true,
+    "toolbar": false
+  },
+  "platformOverrides": {
+    "win": {
+      "window": {
+        "toolbar": false
+      }
+    }
+  },
+  "dependencies": {
+  }
+}
